@@ -1,0 +1,48 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Infographic Grid */
+#infographic {
+    display: grid;
+    grid-template-columns: repeat(10, 50px); /* 10 columns */
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+/* Person Icons */
+.person {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+/* Highlighted People */
+.highlight {
+    background-color: lightblue;
+}
+
+/* Input and Button */
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
